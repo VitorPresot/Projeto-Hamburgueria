@@ -1,3 +1,9 @@
+*{font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+
+
 .menu{padding: 5px;
     text-align: right;
 }
@@ -25,3 +31,4 @@
 .menu a:active{background-color: rgba(0, 0, 0, 0.767);
     color: white;
 }
+
