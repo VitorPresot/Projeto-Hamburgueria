@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- form é para criar um formulário -->
+    <h1>Meu primeiro formulário</h1>
+
+    <!-- action é para colocar em um banco de dados -->
+    <form autocomplete="off" action="cadastro.php"> 
+
+        <p><label for="inome">Nome:</label>
+            <input id="inome" type="text" placeholder="Digite o seu Nome" required>
+        </p>
+
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input id="isobrenome" type="text" placeholder="Digite o seu sobrenome" required>
+        </p>
+
+        <p><label for="email">Email:</label>
+            <input type="text" name="" id="email" placeholder="Digite o seu email" required>
+        </p>
+
+        <p><label for="senha">Senha:</label>
+            <input type="password" name="" id="senha" placeholder="Digite a sua Senha" required>
+        </p>
+
+        <!-- o imput é o botão de enviar -->
+        <p><input type="submit" value="Enviar"></p>
+
+
+
+    </form>
+</body>
+</html>
