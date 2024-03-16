@@ -1,7 +1,5 @@
 *{font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    background-image: url(Imagens/Default_Astronaut_holding_hamburger_blue_and_red_neon_color_ba_1.jpg);
-    width: 75vh;
 }
 
 
@@ -34,3 +32,17 @@
     color: white;
 }
 
+.carrosel{
+    margin-top: 3vh;
+    margin-left: 2vh;
+    display: grid;
+    width: 190vh;
+    height: 80vh;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.text{
+    align-items: justify;
+    margin: 3vh;
+}
