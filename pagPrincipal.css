@@ -2,12 +2,9 @@
     font-size: medium;
 }
 
-
-
 .menu{padding: 5px;
     text-align: left;
 }
-
 
 .menu a{text-decoration: none;
     padding: 15px;
@@ -33,8 +30,7 @@
 }
 
 .carrosel{
-    margin-top: 3vh;
-    margin-left: 2vh;
+    margin: auto;
     display: grid;
     width: 190vh;
     height: 80vh;
