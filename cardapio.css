@@ -60,7 +60,7 @@ header {
 }
 
 .menu a:active{
-    background-color: rgba(0, 0, 0, 0.767);
+    background-color: blue;
     color: white;
 }
 
