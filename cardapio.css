@@ -30,7 +30,42 @@ header {
     color: white;
 }
 
-.menu {
+
+.menu{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    text-align: left;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    text-shadow: 5px 5px 5px unset;
+}
+
+.menu li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.menu a:hover{
+    background-color: rgba(235, 23, 23, 0.788);
+    text-shadow: 2px 2px 2px unset;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.menu a:active{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+}
+
+
+.menu2 {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
