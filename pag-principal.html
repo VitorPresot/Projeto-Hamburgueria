@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Etecburguer</title>
-    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="pagPrincipal.css">
+    <script src="slider.js" defer></script>
 </head>
 <body>
 
@@ -15,11 +15,19 @@
             <img src="./Imagens/logo-etecburguer-removebg-preview.png" alt="logo-etecburguer" width="70px">
             <li class="botao"><a href="cardapio.html">Cardápio</a></li>
             <li class="botao"><a href="quem-somos.html">Quem somos</a></li>
+            <li class="botao"><a href="https://www.whatsapp.com/?lang=pt_BR">Delivery WhatsApp</a></li>
             </ul>
     </nav>
 
-    <div class="carrosel">
-        <img src="/Imagens/Default_Astronaut_holding_hamburger_blue_and_red_neon_color_ba_1.jpg" alt="as" width="100%" height="650vh" style="z-index: -1; margin: auto;" id="c1">
+    <div class="slider">
+        <img src="/Imagens/arrow-left.png" alt="esquerda" id="prev">
+
+            <div class="container-img">
+                <img src="/Imagens/Default_Astronaut_holding_hamburger_blue_and_red_neon_color_ba_1.jpg" alt="as" width="100%" height="650vh"  class="slider-img on">
+                <img src="./Imagens/Default_Fried_chicken_burger_stuffed_with_cheese_3.jpg" alt="chicken burguer" width="100%" height="650vh" class="slider-img">
+            </div>
+            
+        <img src="/Imagens/arrow-right.png" alt="direita" id="next">
     </div>
     
     <div class="text">
@@ -27,9 +35,7 @@
     </div>
 
     <footer>
-        <div class="container">
             <p>2024 Etecburguer. All rights reserved.</p>
-        </div>
     </footer>
 </body>
 </html>
