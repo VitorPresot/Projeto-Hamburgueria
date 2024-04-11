@@ -1,13 +1,9 @@
-*{font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;  
+    margin: 0;
+    padding: 0;
 }
-
-
-
-.menu{padding: 5px;
-    text-align: left;
-}
-
 
 .menu{
     margin: auto;
@@ -15,6 +11,7 @@
     display: flex;
     padding: 10px;
     text-align: left;
+    margin-bottom: 3%;
 }
 
 .menu a{
@@ -40,4 +37,32 @@
 .menu a:active{
     background-color: blue;
     color: white;
+}
+
+p{  
+    align-items: justify;
+    margin: 3vh;
+    margin-bottom: 4vh;
+}
+
+h1{
+    font-size: larger;
+    margin: 3vh;
+}
+
+#wapp:hover{
+    background-color: #25d366;
+    text-shadow: 2px 2px 2px unset;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+footer {
+    width: 100%;
+    margin-top: 6vh;
+    background: rgb(227,5,5);
+    background: linear-gradient(90deg, rgba(227,5,5,1) 59%, rgba(4,69,163,0.8407738095238095) 69%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }

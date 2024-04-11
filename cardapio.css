@@ -12,6 +12,10 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    padding: 50px 0;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -104,6 +108,7 @@ header {
 }
 
 footer {
+    width: 100%;
     background: rgb(227,5,5);
     background: linear-gradient(90deg, rgba(227,5,5,1) 59%, rgba(4,69,163,0.8407738095238095) 69%);
     color: #fff;
