@@ -48,6 +48,13 @@ p{
 h1{
     font-size: larger;
     margin: 3vh;
+    text-align: center;
+}
+
+hr{
+    margin: 0.5%;
+    padding: 1px;
+    background-color: red;   
 }
 
 #wapp:hover{
