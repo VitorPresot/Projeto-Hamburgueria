@@ -138,6 +138,8 @@ footer {
     align-items: center;
     width: 450px;
     margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     padding: 20px;
     background-color: rgba(235, 23, 23, 0.788);
     border-radius: 15px;
@@ -166,31 +168,70 @@ section{
     align-items: center;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1100px){
+    .slider{
+        height: 47vh;
+    }
     .slider-img{
         width: 100%;
-        height: 70vh;
+        height: 50vh;
     }
     .container-img{
         margin: 0;
         width: 100%;
-        height: 70vh;
+        height: 50vh;
     }
 }
 
-@media screen and (max-width: 800px){   
+@media screen and (max-width: 1000px){
+    .slider{
+        height: 50vh;
+    }
     .slider-img{
         width: 100%;
-        height: 65vh;
+        height: 50vh;
     }
     .container-img{
         margin: 0;
         width: 100%;
-        height: 65vh;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .slider{
+        height: 50vh;
+    }
+    .slider-img{
+        width: 100%;
+        height: 50vh;
+    }
+    .container-img{
+        margin: 0;
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 800px){  
+    .slider{
+        height: 40vh;
+    }
+    .slider-img{
+        width: 100%;
+        height: 45vh;
+    }
+    .container-img{
+        margin: 0;
+        width: 100%;
+        height: 45vh;
     }
 }
 
 @media screen and (max-width: 700px){
+    .slider{
+        height: 35vh;
+    }
     .slider-img{
         width: 100%;
         height: 50vh;
@@ -204,13 +245,33 @@ section{
 }
 
 @media screen and (max-width: 600px){
+    iframe{
+        height: 45vh;
+        width: 44%;
+    }
+    .menu{
+        padding: 0;
+        width: 100%;
+    }
+    .menu a{
+        padding: 9px;
+    }
+    .slider{
+        height: 35vh;
+    }
+    .menu-item{
+        width: 70%;
+    }
     .slider-img{
         width: 100%;
-        height: 35vh;
+        height: 30vh;
     }
     .container-img{
         margin: 0;
         width: 100%;
-        height: 35vh;
+        height: 30vh;
+    }
+    hr{
+        margin: 0;
     }
 }
