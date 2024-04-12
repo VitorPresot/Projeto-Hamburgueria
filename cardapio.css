@@ -116,3 +116,9 @@ footer {
     text-align: center;
 }
 
+#wapp:hover{
+    background-color: #25d366;
+    text-shadow: 2px 2px 2px unset;
+    border-radius: 7px;
+    transition: 0.3s;
+}
